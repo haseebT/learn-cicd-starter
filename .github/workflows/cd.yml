@@ -28,4 +28,4 @@ jobs:
         uses: 'google-github-actions/setup-gcloud@v3'
 
       - name: 'Push docker image to gcloud gar'
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-haseeb/notely-ar-repo .
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/notely-haseeb/notely-ar-repo/notely .
